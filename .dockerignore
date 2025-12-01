@@ -1,0 +1,11 @@
+target/
+.git/
+.gitignore
+*.md
+*.pdf
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+

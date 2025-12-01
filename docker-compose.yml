@@ -1,0 +1,9 @@
+services:
+  bfh-java-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: bfh-java-test:latest
+    container_name: bfh-java-test
+    restart: unless-stopped
+
